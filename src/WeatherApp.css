@@ -1,0 +1,57 @@
+/* Style for full-screen background video */
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure the video stays behind other content */
+}
+
+/* Style for centering and adding opaque background to the content */
+.content {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  height:750px;
+  width:590px;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  size: 20;
+  font-size:18px;
+}
+/*background-color: rgba(255, 255, 255, 0.8);  Adjust opacity here */
+
+/* Weather.css */
+
+.header {
+  justify-content: center; 
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 30px;
+}
+
+.app-name {
+  font-size: 24px;
+  color:black;
+  font-weight: bold;
+  margin: 0; /* Remove default margin */
+}
+.default-image{
+  margin-top: 100px;
+}
+.App {
+  background-image: url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg"); /* Your base64 encoded image data here */
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image */
+  height: 100vh; /* Set height to 100% of viewport height */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; 
+}
